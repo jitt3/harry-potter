@@ -9,8 +9,8 @@ Vite PWA
 
 Based on what you learned from the session, your work will be creating a
 mini-application using any public API. The only requirement will be to apply
-some of the knowledge shared during the session; it is up to you how complex
-your app will be.
+some of the knowledge shared during the session; it is up to you how complex you
+want your app to be.
 
 ```bash
 console.log('Happy Coding')
