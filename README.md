@@ -1,7 +1,29 @@
-# React Query vs SWR
+# Harry Potter Mini App
 
-DevTools yes partial  
-Selectors yes no Auto GC yes no Mutation hooks yes no offline Mut yes no
-Agnostic yes partial
+Demo app to demonstrate how React query works as well as the offline mode using
+Vite PWA
 
-RQ bundle size 13kb SWR 4.3
+---
+
+## Here is a little challenge for you
+
+Based on what you learned from the session, your work will be creating a
+mini-application using any public API. The only requirement will be to apply
+some of the knowledge shared during the session; it is up to you how complex
+your app will be.
+
+```bash
+console.log('Happy Coding')
+```
+
+## Tools you can work with
+
+Here are some links of interest where you can acquire extra knowledge
+
+- [Typescript](https://www.typescriptlang.org/)
+
+- [Server State management - React Query](https://tanstack.com/query/v3/docs/react/overview)
+
+- [Vite](https://vitejs.dev/)
+
+- [VitePWA](https://vite-pwa-org.netlify.app/)
