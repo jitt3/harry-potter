@@ -16,13 +16,13 @@ const Landing = () => {
             src={goldenSnitch}
             alt="golden snitch image"
           />
-          <h1 className="text-6xl text-[#F3D692]">
+          <h1 className="text-6xl text-[#F3D692] font-PPEikoThin tracking-wide">
             <p>Welcome</p>
             <p> to hogwarts</p>
           </h1>
           <Link
             to={'/houses'}
-            className="w-[205px] text-center text-[#F3D692] p-3 rounded-full border border-[#F3D692]"
+            className="w-[205px] text-center text-[#F3D692] p-3 rounded-full border border-[#F3D692] font-NeueMontrealRegular tracking-widest"
           >
             Discover houses
           </Link>

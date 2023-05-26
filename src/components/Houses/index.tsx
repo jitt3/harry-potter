@@ -26,7 +26,7 @@ const Houses = () => {
                   <img src={emblem} className="w-[180px] h-[180px]" alt="" />
                   <Link
                     to={`/houses/${name}`}
-                    className="w-[100px] text-center text-sm text-[#F3D692] p-2 rounded-full border border-[#F3D692]"
+                    className="w-[100px] text-center text-sm text-[#F3D692] p-2 rounded-full border border-[#F3D692] font-NeueMontrealRegular tracking-widest"
                   >
                     Enter
                   </Link>

@@ -1,6 +1,7 @@
 import CharacterCard from 'components/Character'
 import Header from 'components/Header'
 import Loader from 'components/Loader'
+import Error from 'components/Error'
 import {useGetCharactersPerHouse} from 'queries/useGetCharactersPerHouse'
 import {useParams} from 'react-router-dom'
 import {HouseNames} from 'types'
@@ -19,7 +20,7 @@ const House = () => {
         {isLoading ? (
           <Loader />
         ) : isError ? (
-          'Oopsie, something is not working...'
+          <Error />
         ) : (
           <div className="mt-4 container m-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 overflow-auto">
             {character?.map((character) => (

@@ -9,7 +9,7 @@ export default defineConfig({
     tsconfigPaths(),
     VitePWA({
       workbox: {
-        globPatterns: ['**/*.{js,html,png,svg,jpeg,css,woff,woff2}'],
+        globPatterns: ['**/*.{js,html,png,svg,jpeg,css,woff,woff2,gif,otf}'],
         maximumFileSizeToCacheInBytes: 10000000,
       },
       registerType: 'autoUpdate',

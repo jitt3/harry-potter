@@ -19,11 +19,10 @@ export const useGetCharactersPerHouse = (house: HouseNames | undefined) => {
     queryKey: [`characters-${house}`],
     queryFn: async () => house && getCharactersPerHouse(house),
     initialData: () => {
-      return client.getQueryData([`characters-${house}`])
+      return client.getQueryData([`characters-${house}`], {exact: true})
     },
     enabled: Boolean(house),
     retry: 0,
-    keepPreviousData: true,
     networkMode: 'offlineFirst',
     staleTime: 1000 * 60 * 60 * 24,
     cacheTime: 1000 * 60 * 60 * 24 * 7,

@@ -28,7 +28,9 @@ const CharacterCard: FC<{info: Character}> = ({info}) => {
             src={info.image ? info.image : wizardPlaceholder}
             alt="character image"
           />
-          <h2 className="text-md text-[#F3D692]">{info.name}</h2>
+          <h2 className="text-md text-[#F3D692] font-PPEikoThin tracking-wide">
+            {info.name}
+          </h2>
         </div>
         <div
           onClick={handleFlip}
@@ -36,9 +38,11 @@ const CharacterCard: FC<{info: Character}> = ({info}) => {
             houseGradients[info.house]
           } p-5`}
         >
-          <h2 className="text-md text-[#F3D692]">{info.name}</h2>
-          <section className="flex flex-col gap-2 text-[#F3D692]">
-            <h3>
+          <h2 className="text-md text-[#F3D692] font-PPEikoMedium tracking-wide">
+            {info.name}
+          </h2>
+          <section className="flex flex-col gap-2 text-[#F3D692] tracking-wide">
+            <h3 className="font-NeueMontrealRegular">
               {Array.isArray(info.alternate_names)
                 ? info.alternate_names[0]
                 : 'N/A'}

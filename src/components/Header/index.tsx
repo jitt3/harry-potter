@@ -9,7 +9,7 @@ const MenuOptions = () => {
         <li key={house.id}>
           <Link
             to={`/houses/${house.name}`}
-            className="text-[#F3D692] block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 "
+            className="text-[#F3D692] block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 font-NeueMontrealRegular tracking-widest"
             aria-current="page"
           >
             {house.name.toUpperCase()}

@@ -11,6 +11,12 @@ export default {
         hufflepuff: "url('/src/assets/houses/hufflepuff.svg')",
         ravenclaw: "url('/src/assets/houses/ravenclaw.svg')",
       },
+      fontFamily: {
+        NeueMontrealRegular: ['NeueMontreal-Regular'],
+        NeueMontrealMedium: ['NeueMontreal-Medium'],
+        PPEikoMedium: ['PPEiko-Medium'],
+        PPEikoThin: ['PPEiko-Thin'],
+      },
     },
   },
   plugins: [],
